@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "title": "Dune",
+    "duration": 245,
+    "cast": ["Timothée Chalamet", "Zendaya"],
+    "relaseDate": 2021,
+    "onDisplay": false
+  },
+  {
+    "id": 2,
+    "title": "The Batman",
+    "duration": 256,
+    "cast": ["Robert Pattinson", "Zoë Kravitz"],
+    "relaseDate": 2022,
+    "onDisplay": true
+  }
+]
