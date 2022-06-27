@@ -10,10 +10,15 @@ function Movie(id, title, duration, cast, relaseDate, onDisplay) {
       (this.onDisplay = onDisplay);
   }
 
-module.exports = (id, title, duration, cast, relaseDate, onDisplay) => {
+ function createMovie(id, title, duration, cast, relaseDate, onDisplay){
     let newMovie = Movie(id, title, duration, cast, relaseDate, onDisplay);
 
     // let obj = JSON.parse(catalogo);
+    
     catalogo.push(newMovie);
     // obj = JSON.stringify(catalogo);
+    return newMovie;
+    // JSON.st
 }
+
+module.exports = createMovie
